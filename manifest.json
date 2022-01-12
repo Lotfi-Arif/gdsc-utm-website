@@ -1,6 +1,6 @@
 {
-  "name": "GDSC - Politechnika Łódzka",
-  "short_name": "GDSC - Łódź",
+  "name": "GDSC - Universiti Teknologi University",
+  "short_name": "GDSC - UTM",
   "start_url": ".",
   "display": "fullscreen",
   "background_color": "#339977",
@@ -32,6 +32,6 @@
   }],
   "related_applications": [{
     "platform": "gdsc community",
-    "url": "https://gdsc.community.dev/lodz-university-of-technology/"
+    "url": "https://gdsc.community.dev/universiti-teknologi-malaysia/"
   }]
 }

@@ -63,9 +63,9 @@ export class App extends KKWebComponent {
       activeTab: 'Events'
     });
     this.footer.setCopyright({
-      date: '2021',
-      author: 'Krzysztof Kaczyński',
-      termsReferenceUrl: 'https://github.com/GDSC-Lodz-University-of-Technology/gdsc-tul-website/blob/master/LICENSE'
+      date: '2022',
+      author: 'Lotfi Anwar L Arif',
+      termsReferenceUrl: ''
     });
   }
 }
