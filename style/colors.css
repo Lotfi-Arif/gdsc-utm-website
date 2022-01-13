@@ -1,6 +1,6 @@
 :root {
-  --brand-hue: 160;
-  --brand-saturation: 100%;
+  --brand-hue: 180;
+  --brand-saturation: 150%;
   --brand-lightness: 70%;
 
   --brand: hsl(

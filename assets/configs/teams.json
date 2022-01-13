@@ -9,13 +9,13 @@
       "telegram": "telegram.team.url"
     },
     "members": [
-      {"name": "Zeyad Naguib", "avatarUrl": "./assets/images/Zeyad Naguib.jpg", "url": "someUrl"},
-      {"name": "Osama Abdelhameed", "avatarUrl": "./assets/images/Osama Abdelhameed.jpg", "url": "someUrl"},
-      {"name": "UMESH A/L DEVADAS", "avatarUrl": "./assets/images/UMESH.jpg", "url": "someUrl"},
-      {"name": "Lim Sin Jie", "avatarUrl": "./assets/images/Sin Jie.jpg", "url": "someUrl"},
-      {"name": "AZHAN HANIFF", "avatarUrl": "./assets/images/Azhan Haniff.jpeg", "url": "someUrl"},
-      {"name": "LAI FOO ZHENG", "avatarUrl": "./assets/images/default-avatar.webp", "url": "someUrl"},
-      {"name": "Mooi Kai Zhe", "avatarUrl": "./assets/images/kaizhe.jpg", "url": "someUrl"}
+      {"name": "Zeyad Naguib", "avatarUrl": "./assets/images/Zeyad Naguib.jpg"},
+      {"name": "Osama Abdelhameed", "avatarUrl": "./assets/images/Osama Abdelhameed.jpg"},
+      {"name": "UMESH A/L DEVADAS", "avatarUrl": "./assets/images/UMESH.jpg"},
+      {"name": "Lim Sin Jie", "avatarUrl": "./assets/images/Sin Jie.jpg"},
+      {"name": "AZHAN HANIFF", "avatarUrl": "./assets/images/Azhan Haniff.jpeg"},
+      {"name": "LAI FOO ZHENG", "avatarUrl": "./assets/images/default-avatar.webp"},
+      {"name": "Mooi Kai Zhe", "avatarUrl": "./assets/images/kaizhe.jpg"}
     ]
   },
   {
@@ -28,12 +28,12 @@
       "telegram": "telegram.team.url"
     },
     "members": [
-      {"name": "Muhammad Aniq Aqil", "avatarUrl": "./assets/images/Muhammad Aniq Aqil .JPG", "url": "someUrl"},
-      {"name": "LEE MING QI", "avatarUrl": "./assets/images/Lee Ming Qi.jpg", "url": "someUrl"},
-      {"name": "Wong Li Jie", "avatarUrl": "./assets/images/Wong Li Jie.jpeg", "url": "someUrl"},
-      {"name": "NG QIAN HUI", "avatarUrl": "./assets/images/Ng Qian Hui.jpeg", "url": "someUrl"},
-      {"name": "Phuah Kai Sheng", "avatarUrl": "./assets/images/Phuah Kai Sheng.jpg", "url": "someUrl"},
-      {"name": "Lai Ting Ying", "avatarUrl": "./assets/images/Lai Ting Ying.jpg", "url": "someUrl"}
+      {"name": "Muhammad Aniq Aqil", "avatarUrl": "./assets/images/Muhammad Aniq Aqil .JPG"},
+      {"name": "LEE MING QI", "avatarUrl": "./assets/images/Lee Ming Qi.jpg"},
+      {"name": "Wong Li Jie", "avatarUrl": "./assets/images/Wong Li Jie.jpeg"},
+      {"name": "NG QIAN HUI", "avatarUrl": "./assets/images/Ng Qian Hui.jpeg"},
+      {"name": "Phuah Kai Sheng", "avatarUrl": "./assets/images/Phuah Kai Sheng.jpg"},
+      {"name": "Lai Ting Ying", "avatarUrl": "./assets/images/Lai Ting Ying.jpg"}
     ]
   },
   {
@@ -46,9 +46,9 @@
       "telegram": "telegram.team.url"
     },
     "members": [
-      {"name": "Tajwar Haque", "avatarUrl": "./assets/images/Tajwar Haque.jpg", "url": "someUrl"},
-      {"name": "Nashrah Tasnim", "avatarUrl": "./assets/images/Nashrah Tasnim.jpg", "url": "someUrl"},
-      {"name": "Samin Enam", "avatarUrl": "./assets/images/Samin Enam.png", "url": "someUrl"}
+      {"name": "Tajwar Haque", "avatarUrl": "./assets/images/Tajwar Haque.jpg"},
+      {"name": "Nashrah Tasnim", "avatarUrl": "./assets/images/Nashrah Tasnim.jpg"},
+      {"name": "Samin Enam", "avatarUrl": "./assets/images/Samin Enam.png"}
     ]
   },
   {
