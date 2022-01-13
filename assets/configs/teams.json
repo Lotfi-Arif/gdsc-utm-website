@@ -6,14 +6,16 @@
     "technologies": ["JavaScript", "Flutter", "Artificial intelligence"],
     "contact": {
       "discord": "discord.chanel.url",
-      "messanger": "messanger.team.url",
-      "telegram": "telegram.team.url",
-      "mail": "mail.team.url",
-      "phone": 123456789
+      "telegram": "telegram.team.url"
     },
     "members": [
-      {"name": "name or alias", "avatarUrl": "./assets/images/default-avatar.webp", "url": "someUrl"},
-      {"name": "name or alias", "avatarUrl": "./assets/images/default-avatar.webp", "url": "someUrl"}
+      {"name": "Zeyad Naguib", "avatarUrl": "./assets/images/Zeyad Naguib.jpg", "url": "someUrl"},
+      {"name": "Osama Abdelhameed", "avatarUrl": "./assets/images/Osama Abdelhameed.jpg", "url": "someUrl"},
+      {"name": "UMESH A/L DEVADAS", "avatarUrl": "./assets/images/UMESH.jpg", "url": "someUrl"},
+      {"name": "Lim Sin Jie", "avatarUrl": "./assets/images/Sin Jie.jpg", "url": "someUrl"},
+      {"name": "AZHAN HANIFF", "avatarUrl": "./assets/images/Azhan Haniff.jpeg", "url": "someUrl"},
+      {"name": "LAI FOO ZHENG", "avatarUrl": "./assets/images/default-avatar.webp", "url": "someUrl"},
+      {"name": "Mooi Kai Zhe", "avatarUrl": "./assets/images/kaizhe.jpg", "url": "someUrl"}
     ]
   },
   {
@@ -23,14 +25,15 @@
     "technologies": ["Linkedin", "Tech Talks"],
     "contact": {
       "discord": "discord.chanel.url",
-      "messanger": "messanger.team.url",
-      "telegram": "telegram.team.url",
-      "mail": "mail.team.url",
-      "phone": 123456789
+      "telegram": "telegram.team.url"
     },
     "members": [
-      {"name": "name or alias", "avatarUrl": "./assets/images/default-avatar.webp", "url": "someUrl"},
-      {"name": "name or alias", "avatarUrl": "./assets/images/default-avatar.webp", "url": "someUrl"}
+      {"name": "Muhammad Aniq Aqil", "avatarUrl": "./assets/images/Muhammad Aniq Aqil .JPG", "url": "someUrl"},
+      {"name": "LEE MING QI", "avatarUrl": "./assets/images/Lee Ming Qi.jpg", "url": "someUrl"},
+      {"name": "Wong Li Jie", "avatarUrl": "./assets/images/Wong Li Jie.jpeg", "url": "someUrl"},
+      {"name": "NG QIAN HUI", "avatarUrl": "./assets/images/Ng Qian Hui.jpeg", "url": "someUrl"},
+      {"name": "Phuah Kai Sheng", "avatarUrl": "./assets/images/Phuah Kai Sheng.jpg", "url": "someUrl"},
+      {"name": "Lai Ting Ying", "avatarUrl": "./assets/images/Lai Ting Ying.jpg", "url": "someUrl"}
     ]
   },
   {
@@ -40,16 +43,12 @@
     "technologies": ["Instagram", "Canva", "Marketing"],
     "contact": {
       "discord": "discord.chanel.url",
-      "messanger": "messanger.team.url",
-      "telegram": "telegram.team.url",
-      "mail": "mail.team.url",
-      "phone": 123456789
+      "telegram": "telegram.team.url"
     },
     "members": [
-      {"name": "Tajwar Haque", "avatarUrl": "./assets/images/default-avatar.webp", "url": "someUrl"},
-      {"name": "Nashrah", "avatarUrl": "./assets/images/default-avatar.webp", "url": "someUrl"},
-      {"name": "Samin Enam", "avatarUrl": "./assets/images/default-avatar.webp", "url": "someUrl"},
-      {"name": "Name or alias", "avatarUrl": "./assets/images/default-avatar.webp", "url": "someUrl"}
+      {"name": "Tajwar Haque", "avatarUrl": "./assets/images/Tajwar Haque.jpg", "url": "someUrl"},
+      {"name": "Nashrah Tasnim", "avatarUrl": "./assets/images/Nashrah Tasnim.jpg", "url": "someUrl"},
+      {"name": "Samin Enam", "avatarUrl": "./assets/images/Samin Enam.png", "url": "someUrl"}
     ]
   },
   {
@@ -59,14 +58,15 @@
     "technologies": ["Interactivity", "Open-Mindedness", "Fun Events"],
     "contact": {
       "discord": "discord.chanel.url",
-      "messanger": "messanger.team.url",
-      "telegram": "telegram.team.url",
-      "mail": "mail.team.url",
-      "phone": 123456789
+      "telegram": "telegram.team.url"
     },
     "members": [
-      {"name": "name or alias", "avatarUrl": "./assets/images/default-avatar.webp", "url": "someUrl"},
-      {"name": "name or alias", "avatarUrl": "./assets/images/default-avatar.webp", "url": "someUrl"}
+      {"name": "SAMUEL LOW YU HANG", "avatarUrl": "./assets/images/samuel.jpg", "url": "/"},
+      {"name": "Nurul 'Afifah Mohamad", "avatarUrl": "./assets/images/nurul_afifah.jpg", "url": "/"},
+      {"name": "SHANMUGAPRIYAN", "avatarUrl": "./assets/images/default-avatar.webp", "url": "/"},
+      {"name": "Azam Raduan", "avatarUrl": "./assets/images/default-avatar.webp", "url": "/"},
+      {"name": "JENNIFER LIEW CAI RONG", "avatarUrl": "./assets/images/Jennifer Liew Cai Rong.jpg", "url": "/"},
+      {"name": "AFIQ FAHMI", "avatarUrl": "./assets/images/Afiq Fahmi.jpeg", "url": "/"}
     ]
   }
 ]

@@ -9,6 +9,7 @@ export class GDSCDataService {
   description = null;
   configRequest = null;
   dataRequest = null;
+  advisor = null;
 
   constructor() {
     void this.voidInitializeConfig();
@@ -17,10 +18,11 @@ export class GDSCDataService {
   async voidInitializeConfig() {
     this.configRequest = fetch('./assets/configs/config.json', {cache: 'force-cache'})
       .then(response => response.json().then())
-      .then(({gdscClubRootUrl, clubName, contact}) => {
+      .then(({gdscClubRootUrl, clubName, advisor, contact}) => {
         this.gdscClubUrl = gdscClubRootUrl;
         this.clubName = clubName;
         this.contact = contact;
+        this.advisor = advisor;
       });
   }
 
@@ -32,6 +34,11 @@ export class GDSCDataService {
   async getClubName() {
     await this.configRequest;
     return this.clubName;
+  }
+
+  async getAdvisor() {
+    await this.configRequest;
+    return this.advisor;
   }
 
   async getPastEvents() {
@@ -75,6 +82,8 @@ export class GDSCDataService {
     this.transformHtmlOrganizersToArrayOfContacts(rawContacts);
     return this.organizers;
   }
+
+  
 
   async getDescription() {
     if (this.description === null) {

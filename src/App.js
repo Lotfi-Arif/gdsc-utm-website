@@ -62,11 +62,10 @@ export class App extends KKWebComponent {
       ],
       activeTab: 'Events'
     });
-    this.footer.setCopyright({
-      date: '2022',
-      author: 'Lotfi Anwar L Arif',
-      termsReferenceUrl: ''
-    });
+    // this.footer.setCopyright({
+    //   date: '2022',
+    //   author: 'Lotfi Anwar L Arif'
+    // });
   }
 }
 

@@ -1,7 +1,8 @@
 export const style = `
 h2 {
-  margin: 0;
+  margin: 25px;
   padding: var(--spacing-l) 0;
+  text-align: center;
 }
 ul {
   margin: 0;
@@ -24,5 +25,10 @@ kk-labeled-url-icon {
 .description-wrapper > p {
   margin: 0;
   padding: var(--spacing-s) 0;
+}
+.advisor-wrapper > li kk-labeled-avatar{
+  padding: var(--spacing-m);
+  align-items: center;
+  object-fit: cover;
 }
 `;

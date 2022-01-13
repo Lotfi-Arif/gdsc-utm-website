@@ -17,6 +17,10 @@ const template = `
   <h2>Organizers</h2>
   <ul class="items-wrapper organizers-wrapper"></ul>
 </section>
+<section class="advisor">
+  <h2>Advisor</h2>
+  <ul class="items-wrapper advisor-wrapper"></ul>
+</section>
 `;
 
 export class Info extends KKWebComponent {
@@ -25,6 +29,7 @@ export class Info extends KKWebComponent {
   organizersWrapper = this.shadowRoot.querySelector('.organizers-wrapper');
   contactWrapper = this.shadowRoot.querySelector('.contact-wrapper');
   descriptionWrapper = this.shadowRoot.querySelector('.description-wrapper');
+  advisorWrapper = this.shadowRoot.querySelector('.advisor-wrapper');
 
   constructor() {
     super(template, style);
@@ -35,6 +40,7 @@ export class Info extends KKWebComponent {
     void gdscService.getOrganizers().then(this.renderMembers)
     void gdscService.getContact().then(this.renderContacts)
     void gdscService.getDescription().then(this.renderDescription)
+    void gdscService.getAdvisor().then(this.renderAdvisor)
   }
 
   renderMembers = (members) => {
@@ -55,6 +61,14 @@ export class Info extends KKWebComponent {
 
   renderDescription = (description) => {
     this.descriptionWrapper.innerHTML =description;
+  }
+
+  renderAdvisor =(advisors) => {
+    for (const {pic, name} of advisors) {
+      const singleAdvisor = document.createElement('li');
+      singleAdvisor.append(new LabeledAvatar(name, pic));
+      this.advisorWrapper.append(singleAdvisor);
+    }
   }
 }
 

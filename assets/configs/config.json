@@ -1,6 +1,7 @@
 {
   "gdscClubRootUrl": "https://gdsc.community.dev/universiti-teknologi-malaysia/",
   "clubName": "GDSC - UTM",
+  "advisor": [ {"pic": "./assets/images/Masitah-1.jpg", "name": "Prof. Madya Ts. Dr. Masitah Binti Ghazali" } ],
   "contact": [
     { "iconId": "gdsc", "url": "https://gdsc.community.dev/universiti-teknologi-malaysia/" },
     { "iconId": "facebook", "url": "https://www.facebook.com/gdscUTM/" },
