@@ -12,8 +12,8 @@ a {
   align-items: center;
 }
 .avatar-img {
-  width: 64px;
-  height: 64px;
+  width: 94px;
+  height: 94px;
   object-fit: cover;
 }
 .avatar-label {

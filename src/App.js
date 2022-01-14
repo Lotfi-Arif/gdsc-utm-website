@@ -38,15 +38,15 @@ export class App extends KKWebComponent {
     const clubName = await gdscService.getClubName();
     await this.header.setTitleAndLogo(clubName, 'gdsc');
     this.header.addNavigation({
-      tabs: [
-        {
-          name: 'Events',
-          changeTabCallback: () => this.body.changeTab('Events'),
-          disabled: false
-        },
+      tabs: [    
         {
           name: 'Info',
           changeTabCallback: () => this.body.changeTab('Info'),
+          disabled: false
+        },
+        {
+          name: 'Events',
+          changeTabCallback: () => this.body.changeTab('Events'),
           disabled: false
         },
         {
@@ -58,9 +58,14 @@ export class App extends KKWebComponent {
           name: 'Projects',
           changeTabCallback: () => this.body.changeTab('Projects'),
           disabled: false
+        },
+        {
+          name: 'Resources',
+          changeTabCallback: () => this.body.changeTab('Projects'),
+          disabled: false
         }
       ],
-      activeTab: 'Events'
+      activeTab: 'Info'
     });
     // this.footer.setCopyright({
     //   date: '2022',
